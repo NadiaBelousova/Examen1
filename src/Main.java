@@ -4,11 +4,11 @@ public class Main {
     }
 
     private static void task1() {
-        System.out.println("задача");
-        String name = "МишаМишаЛюдаЛюда";
+        System.out.println("Задача");
+        String name = "ЛюдаЛюдаМишаМиша";
         String name2 = name.substring(0, name.length() / 2);
         System.out.println(name2);
-        String name3 = name.substring(name.length() / 2, name.length());
+        String name3 = name.substring(name.length() / 2);
         System.out.println(name3);
 
     }
